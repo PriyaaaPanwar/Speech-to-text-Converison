@@ -1,0 +1,7 @@
+runtime: nodejs20
+handlers:
+- url: /api/.*
+  script: auto
+  secure: always
+env_variables:
+  MONGO_URI: "mongodb+srv://piyush903:9560956134@cluster0.ipsyhiq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
